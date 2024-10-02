@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+}
+header .logo {
+background-color: #4CAF50;
+padding: 20px;
+text-align: center;
+font-size: 24px;
+color: white;
+}
+.menu {
+background-color: #333;
+overflow: hidden;
+}
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.menu ul li {
+display: inline;
+padding: 14px 20px;
+}
+.menu ul li a {
+color: white;
+text-decoration:#4CAF50;
+font-size: 18px;
+text-transform: uppercase;
+}
+.slider {
+background-color: orange;
+padding: 50px;
+text-align: center;
+color: white;
+font-size: 24px;
+}
+.contenido {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.tarjetas {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.tarjeta {
+background-color: lightgreen;
+padding: 20px;
+text-align: center;
+}
+.tabla {
+background-color: lightgray;
+padding: 20px;
+text-align: center;
+}
+.info {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.mapa {
+background-color: violet;
+padding: 50px;
+width: 45%;
+text-align: center;
+
+}
+
+.formulario {
+background-color: pink;
+padding: 50px;
+width: 45%;
+text-align: center;
+}
+footer {
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+}
